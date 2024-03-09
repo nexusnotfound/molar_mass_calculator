@@ -1,6 +1,6 @@
-# Project Title
+# Molar Mass Calculator
 
-One Paragraph of project description goes here
+A simple cli tool to calculate the molar mass of any molecule, built with python
 
 ## Getting Started
 
@@ -10,10 +10,8 @@ git clone https://github.com/nexusnotfound/molar_mass_calculator.git
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
 ```
-Give examples
+Python 3 or higher
 ```
 
 ### Using
