@@ -38,7 +38,10 @@ def main():
             else:
                 print(f"Element symbol {element} not recognized.")
                 sys.exit()
-        print(f"A total of {molecule_amount} * {total_molar_mass} = {COLOR_GREEN(f'{precise_mult(str(total_molar_mass), str(molecule_amount))} g/mol')}")
+        if molecule_amount > 1:
+            print(f"A total of {molecule_amount} * {total_molar_mass} = {COLOR_GREEN(f'{precise_mult(str(total_molar_mass), str(molecule_amount))} g/mol')}")
+        else:
+            print(f"A total of {COLOR_GREEN(f'{str(total_molar_mass)} g/mol')}")
         input()
         os.system("cls")
 
